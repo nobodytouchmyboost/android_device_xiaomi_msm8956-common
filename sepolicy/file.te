@@ -2,3 +2,5 @@ type proc_touchpanel, fs_type;
 type dsp_file, fs_type, contextmount_type;
 
 type decrypt_file, file_type, data_file_type;
+
+type kcal_dev, sysfs_type, file_type;
