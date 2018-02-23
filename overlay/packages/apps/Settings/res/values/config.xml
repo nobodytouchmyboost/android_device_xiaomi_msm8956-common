@@ -22,4 +22,8 @@
     <!-- Enable gesture setting. -->
     <bool name="config_gesture_settings_enabled">true</bool>
 
+    <!-- Does the device allow for manual subscription provisioning? Only works for multi-sim devices,
+         and currently depends on QC's proprietary telephony stack -->
+    <bool name="config_enableManualSubProvisioning">true</bool>
+
 </resources>
