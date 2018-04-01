@@ -57,9 +57,12 @@ persist.data.iwlan.enable=true
 # Delayed restart
 ro.am.reschedule_service=true
 
+# Improve cached apps limit
+ro.sys.fw.bg_apps_limit=55
+
 # fling_velocity
-ro.min.fling_velocity=160
-ro.max.fling_velocity=20000
+ro.min.fling_velocity=260
+ro.max.fling_velocity=30000
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
