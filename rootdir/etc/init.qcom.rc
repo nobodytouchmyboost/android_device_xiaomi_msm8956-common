@@ -34,6 +34,10 @@ on early-init
     chown root system /dev/kmsg
     chmod 0620 /dev/kmsg
 
+    # Enable sched boost
+    write /proc/sys/kernel/sched_boost 1
+    setprop sys.io.scheduler noop
+
     # zram setup
     write /proc/sys/vm/page-cluster 0
 
