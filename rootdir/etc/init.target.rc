@@ -98,7 +98,6 @@ service thermal-engine /system/vendor/bin/thermal-engine
 
 on boot
     start rmt_storage
-    write /proc/sys/kernel/sched_boost 1
 
     # set vibrator intensity to 50%
     write /sys/class/timed_output/vibrator/vtg_level 1777

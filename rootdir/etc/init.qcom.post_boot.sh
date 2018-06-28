@@ -177,9 +177,6 @@ echo 20 > /sys/devices/system/cpu/cpu3/sched_mostly_idle_load
 echo 20 > /sys/devices/system/cpu/cpu4/sched_mostly_idle_load
 echo 20 > /sys/devices/system/cpu/cpu5/sched_mostly_idle_load
 
-# Disable sched boost
-echo 0 > /proc/sys/kernel/sched_boost
-
 # Bring up all cores online
 echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
