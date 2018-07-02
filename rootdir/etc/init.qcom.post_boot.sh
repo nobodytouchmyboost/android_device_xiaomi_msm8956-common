@@ -226,3 +226,6 @@ echo 1 > /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost
 
 # Set CFQ as default io-schedular after boot
 setprop sys.io.scheduler "cfq"
+
+# Input boost configuration
+echo 0 > /sys/kernel/cpu_input_boost/enabled
