@@ -452,6 +452,7 @@ lib/libwfduibcsink.so
 lib/libwfduibcsinkinterface.so
 lib/libwfduibcsrc.so
 lib/libwfduibcsrcinterface.so
+lib/vendor.display.postproc@1.0.so
 lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib64/libFileMux.so
 lib64/libOmxMux.so
@@ -476,17 +477,20 @@ lib64/libwfduibcsink.so
 lib64/libwfduibcsinkinterface.so
 lib64/libwfduibcsrc.so
 lib64/libwfduibcsrcinterface.so
+lib64/vendor.display.postproc@1.0.so
 vendor/bin/wifidisplayhalservice
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so
+vendor/lib/libmmosal_proprietary.so
 vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/vendor.display.config@1.0_vendor.so
+vendor/lib/vendor.display.postproc@1.0_vendor.so
 vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
 vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so
@@ -497,3 +501,4 @@ vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/libwfdmmservice.so
 vendor/lib64/libwfdmodulehdcpsession.so
 vendor/lib64/vendor.display.config@1.0_vendor.so
+vendor/lib64/vendor.display.postproc@1.0_vendor.so
