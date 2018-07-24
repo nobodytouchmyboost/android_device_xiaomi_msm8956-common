@@ -162,7 +162,9 @@ PRODUCT_PACKAGES += \
     copybit.msm8952 \
     gralloc.msm8952 \
     hwcomposer.msm8952 \
-    memtrack.msm8952
+    memtrack.msm8952 \
+    libtinyxml \
+    libdisplayconfig
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -324,6 +326,10 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl
+
+# Wfd
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # WiFi HAL
 PRODUCT_PACKAGES += \
