@@ -164,7 +164,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8952 \
     memtrack.msm8952 \
     libtinyxml \
-    libdisplayconfig
+    libdisplayconfig \
+    libqdMetaData.system
 
 # Fingerprint
 PRODUCT_PACKAGES += \
